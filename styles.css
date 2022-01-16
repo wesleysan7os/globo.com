@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Encode Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lora', serif;
+  font-family: 'Varela', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+header img {
+  width: 171px;
+  height: 36px;
+}
+
+.border-top {
+  height: 1px;
+  background-color: #F5F6F7;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  height: 40px;
+}
+
+.navbar-list #g1 {
+  color: #C3170C;
+}
+
+.navbar-list #globo {
+  color: #1E4B9B;
+}
+
+.navbar-list #valor {
+  color: #006766;
+}
+
+.navbar-list #ge {
+  color: #07AA47;
+}
+
+.navbar-list #cartola {
+  color: #E3662B;
+}
+
+.navbar-list #globoplay {
+  color: #FB0735;
+}
+
+.navbar-list #dropz {
+  color: #FF75BB;
+}
+
+.navbar-list #gshow {
+  color: #EC7D00;
+}
+
+.navbar-list #quem {
+  color: #323333;
+}
+
+.navbar-list #receitas {
+  color: #A81D83;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+section .main-subject a {
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  color: #C4160C;
+}
