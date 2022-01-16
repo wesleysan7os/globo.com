@@ -87,15 +87,141 @@ header img {
 
 .container {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 90px;
 }
 
-section .main-subject a {
+.container .left-side {
   font-family: Encode Sans;
+}
+
+.container section {
+  height: 160px;
+}
+
+.left-side .top-section .main-subject {
+  margin-top: 34px;
+  margin-bottom: 29px;
+  text-align: left;
+  vertical-align: top;
+  width: 624px;
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
   line-height: 67px;
   letter-spacing: -0.01em;
   color: #C4160C;
+}
+
+.left-side .top-section .secundary-subject {
+  position: relative;
+  width: 622px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #303134;
+}
+
+.border-middle {
+  position: absolute;
+  top: 472px;
+  height: 1px;
+  background-color: #F5F6F7;
+  width: 624px;
+}
+
+.left-side .middle-section {
+  display: flex;
+  justify-content: space-around;
+  width: 624px;
+  margin-left: -110px;
+}
+
+.left-side .middle-section img {
+  position: absolute;
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+  top: 498px;
+}
+
+.left-side .bottom-section {
+  display: flex;
+  justify-content: space-around;
+  width: 624px;
+  margin-left: -110px;
+}
+
+.left-side .middle-section .title {
+  top: 619px;
+}
+
+.left-side .middle-section .sub-title {
+  top: 644px;
+}
+
+.left-side .middle-section .preview {
+  top: 732px;
+}
+
+.left-side .bottom-section .title {
+  top: 837px;
+}
+
+.left-side .bottom-section .sub-title {
+  top: 862px;
+}
+
+.left-side .bottom-section .preview {
+  top: 950px;
+}
+
+.left-side .bottom-section .preview::after {
+  position: absolute;
+  content: "";
+  bottom: -40px;
+  height: 40px;
+  width: 1px;
+}
+
+.left-side .title {
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #C4170C;
+}
+
+.left-side .sub-title {
+  position: absolute;
+  width: 192px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #2F3134; 
+}
+
+.left-side .preview {
+  position: absolute;
+  width: 174px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #2F3134;
+}
+
+.border-bottom {
+  position: absolute;
+  top: 811px;
+  height: 1px;
+  background-color: #F5F6F7;
+  width: 624px;
 }
